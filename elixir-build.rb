@@ -1,9 +1,9 @@
 require 'formula'
 
 class ElixirBuild < Formula
-  homepage "https://github.com/Joe-noh/elixir-build"
-  head "https://github.com/Joe-noh/elixir-build.git"
-  url "https://github.com/Joe-noh/elixir-build/archive/v20140716.tar.gz"
+  homepage "https://github.com/mururu/elixir-build"
+  head "https://github.com/mururu/elixir-build.git",
+       revision: "b65dd390a477fc9cd9f078a8319059481df4f7df"
 
   def install
     ENV["PREFIX"] = prefix
